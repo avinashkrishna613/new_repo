@@ -11,6 +11,11 @@ def div(a, b):
 
 def mod(a, b):
 	return a%b
+
+def printHello():
+	print("Hello world")
+
+
 one = add(1, 2)
 two = mul(2, 3)
 three = mul(4, 5)
@@ -21,3 +26,4 @@ print(two)
 print(three)
 print(four)
 print(five)
+printHello()
